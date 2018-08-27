@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  border: 1px solid black;
+}
+
+.dish {
+  background-color: snow;
+  flex: 1;
+}
+
+.controls {
+  background-color: plum;
+  flex: 1;
+}
+
+.burger {
+  padding: 1rem;
+}
+.burger * {
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+.bread {
+  background-color: wheat;
+}
+.cheese {
+  background-color: gold;
+}
+.tomato {
+  background-color: tomato;
+}
+
+
